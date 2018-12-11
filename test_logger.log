@@ -4,3 +4,15 @@ Logger Warning Test
 Logger Error Test
 Logger Critical Test
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Logger Info Test
+Logger Warning Test
+Logger Error Test
+Logger Critical Test
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ INFO | logger.py: 22] 2018-12-11 19:24:13,329 > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ INFO | logger.py: 23] 2018-12-11 19:24:13,331 > Logger Info Test
+[ WARNING | logger.py: 24] 2018-12-11 19:24:13,331 > Logger Warning Test
+[ ERROR | logger.py: 25] 2018-12-11 19:24:13,331 > Logger Error Test
+[ CRITICAL | logger.py: 26] 2018-12-11 19:24:13,331 > Logger Critical Test
+[ INFO | logger.py: 27] 2018-12-11 19:24:13,331 > @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

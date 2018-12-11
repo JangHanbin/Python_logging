@@ -5,12 +5,14 @@ import logging
 if __name__ == '__main__':
     logger = logging.getLogger('LogTester')
     logger.setLevel(logging.INFO)
-    fomatter = logging.Formatter('[ % (levelname)s | % (filename)s: % (lineno)s] % (asctime)s > % (message)s')
+    formatter = logging.Formatter('[ %(levelname)s | %(filename)s: %(lineno)s] %(asctime)s > %(message)s')
     # formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
     # add File handler & Stream Handler for print to file & console output
     fh = logging.FileHandler('./test_logger.log')
+    fh.setFormatter(formatter)
     sh = logging.StreamHandler()
+    sh.setFormatter(formatter)
 
     # add File Handler & Stream Handler to logging instance
     logger.addHandler(fh)
