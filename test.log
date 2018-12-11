@@ -1,0 +1,6 @@
+INFO:root:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+INFO:root:Log Info Test
+WARNING:root:Logging Warning Test
+ERROR:root:Logging Error Test
+CRITICAL:root:Logging Critical Test
+INFO:root:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Logging File Output Test@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
